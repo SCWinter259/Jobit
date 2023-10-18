@@ -2,7 +2,7 @@ import { StyleSheet } from "react-native";
 
 import { COLORS, FONT, SHADOWS, SIZES } from "../../../../constants";
 
-const styles = StyleSheet.create({
+const styles = (selectedJob, item) => StyleSheet.create({
   container: (selectedJob, item) => ({
     width: 250,
     padding: SIZES.xLarge,
